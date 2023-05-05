@@ -1,0 +1,179 @@
+body {
+    background-color:#fff; 
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+*{
+    font-family: fonte
+}
+@font-face {
+    font-family: fonte;
+    src: url("IntroRust-Base.otf");
+}
+p {
+color: #24246B; 
+font-size: clamp(8px, 5em, 2rem);
+font-family: fonte;
+margin-top: 50px;
+margin-bottom: 25px;
+}
+
+.menu {
+    display: flex;
+    padding: 10px;
+    background-color:#B0E0E6;
+    align-items: center;
+    justify-content: space-between;
+}
+.colunahorizontal {
+    width:95px;
+    height: 387.2vh;
+    background-color:#B0E0E6;
+    margin-top: 2px;
+}
+.lines{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.line{
+    margin-left: 30px;
+    padding: 0;
+    height: 90px;
+    width: 3px;
+    rotate: 30deg;
+}
+.link{
+    width: 130px;
+    text-align: center;
+    color: #24246B;
+    font-size: clamp(14px, 5em, 1.1rem);
+}
+#c1{
+background-color: white ;
+}
+#c2{
+background-color: #1BA3BB;
+}
+#c3{
+    background-color: #FF914D ;
+}
+
+.lines div{
+    margin-left: 40px;
+}
+.section1{
+    display: flex;
+}
+.welcome{
+    margin-left: 50px;
+}
+.orange-line{
+    width: 130px;
+    height: 3px;
+    background-color: #FF914D;
+}
+
+
+.slide{
+    width: 95%;
+    height: 80vh;
+    background-image: url("Lucia.png");
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    background-position: center;
+    position: absolute;
+    top: 23%;
+    left: 95px;
+    animation: slide 10s linear infinite;
+}
+
+
+@keyframes slide{
+    0%{background-image: url("Lucia.jpeg");}
+    15%{background-image: url("Lucia.jpeg");}
+    30%{background-image: url("Metamorfose.png");}
+    45%{background-image: url("Metamorfose.png");}
+    60%{background-image: url("Uma ação uma vida.png");}
+    75%{background-image: url("Uma ação uma vida.png");}
+    100%{background-image: url("Lucia.jpeg");}
+}
+
+
+
+
+.aviso1, .aviso2, .aviso3{
+    width: 95%;
+    height: 100vh;
+    background-color: #19a2ba;
+    position: absolute;
+    padding: 50px 50px;
+    color: white;
+    box-sizing: border-box;
+}
+.aviso1{
+    top: 100vh;
+    left: 95px;
+    margin-top: 43px;
+}
+.aviso2{
+    top: 200vh;
+    left: 95px;
+    background-color: #FF914D;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.aviso3{
+    top: 300vh;
+    left: 95px;
+    display: flex;
+    align-items: center;
+}
+
+.quadro{
+    color: #FF914D;
+    margin-bottom: 1.5vh;
+    font-size: clamp(18px, 10em, 2rem);
+}
+
+.aviso{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+}
+
+.quadroAvisos span{
+    font-size: clamp(18px, 8em, 1.5rem);
+    text-align: center;
+}
+.text{
+    text-align: center;
+    font-size: clamp(18px, 8em, 1.5rem);
+}
+.text p{
+    font-size: clamp(8px, 5em, 2.3rem);
+}
+
+.footer{
+    height: 20vh;
+    width: 100%;
+    background-color: #3b3b42;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.footer .p{
+    font-size: clamp(8px, 5em, 1rem);
+    margin: 0;
+    color: white;
+    font-weight: 400;
+    
+}
